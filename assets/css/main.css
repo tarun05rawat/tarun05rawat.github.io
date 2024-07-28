@@ -2130,14 +2130,21 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		background-color: white;
 	}
 
+
 		.image img {
-			border-radius: 3px;
+			border-radius: 10px;
 			display: block;
-			width:100%;
+			width: 100%;
 			height:100%;
-			object-fit:cover;
+			background-color: white;
+		}
+
+		#sas_logo_id{
+			width: 600px;
+			height: 270px;
 		}
 
 		.image.left {
