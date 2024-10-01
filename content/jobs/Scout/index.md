@@ -1,11 +1,12 @@
 ---
 date: '2017-04-01'
-title: 'Developer'
-company: 'Scout Studio'
-location: 'Northeastern University'
-range: 'Spring 2016 & 2017'
-url: 'https://web.northeastern.edu/scout/'
+title: 'Calculus I Teaching Assistant'
+company: 'Michigan State University'
+location: 'Michigan State University'
+range: 'Fall 2024'
+url: 'https://math.msu.edu/'
 ---
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- Conducted **weekly recitation sessions** for two sections, reinforcing key concepts and helping students grasp complex topics.
+- Provided grading support and offered **4 hours of weekly tutoring** at the Math Learning Center to further assist student learning.
+- Proctored exams and facilitated discussions, both in-person and online, to promote student success and engagement.
