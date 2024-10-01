@@ -1,10 +1,10 @@
 ---
 date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - December 2016'
-url: 'https://starry.com/'
+title: 'Software Engineer Fellow'
+company: 'Headstarter'
+location: 'East Lansing, MI'
+range: 'July - Aug 2024'
+url: 'https://headstarter.co/'
 ---
 
 - Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS
