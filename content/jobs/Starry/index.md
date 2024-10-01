@@ -7,6 +7,6 @@ range: 'July - Aug 2024'
 url: 'https://headstarter.co/'
 ---
 
-- Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router
-- Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps
+- Developed 5 AI-driven projects using **React, Next.js, OpenAI, and AWS** during a **competitive software engineering fellowship**
+- Participated in **weekend hackathons**, collaborating with team members across diverse roles to solve real-world challenges
+- Gained hands-on experience with **Git**, enhancing collaboration and project development skills through effective version control
