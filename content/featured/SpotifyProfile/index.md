@@ -1,15 +1,14 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Eco Reward'
+cover: './green-volt-logo.png'
+github: 'https://github.com/tarun05rawat/eco-reward'
+external: 'https://devpost.com/software/eco-reward'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - React Native
+  - Firebase
+  - OpenAI
+  - Node.js
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Eco Reward is a sustainability app that **rewards users for recycling**. By returning recyclables to registered stations, users **earn points** that can be redeemed for **eco-friendly products** or **donations to environmental causes**. The app also features 'Jack', an **AI-powered assistant** providing personalized tips for reducing carbon emissions. Built using **React Native** and **Firebase** with **OpenAI** integration, Eco Reward was developed as my team's submission for **MHacks 2024**, aiming to make sustainable living easy and rewarding.

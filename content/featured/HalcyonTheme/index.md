@@ -11,4 +11,4 @@ tech:
   - PyTorch
 ---
 
-An AI-driven fitness app that provides real-time feedback on exercise form by analyzing user-uploaded videos. Using Computer Vision, it aims to offer accessible, on-demand form correction to reduce reliance on personal trainers. Built with React Native and Firebase, the app includes user authentication, video capture, and ML integration. Currently part of my university's AI Club Advanced Projects
+An **AI-driven fitness app** that provides real-time feedback on exercise form by analyzing **user-uploaded videos**. Using **Computer Vision**, it aims to offer accessible, on-demand form correction to reduce reliance on personal trainers. Built with **React Native** and **Firebase**, the app includes **user authentication**, **video capture**, and **ML integration**. Currently part of my university's **AI Club Advanced Projects**
