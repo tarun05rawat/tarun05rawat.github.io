@@ -1,14 +1,14 @@
 ---
 date: '2017-12-01'
-title: 'Apple Music Embeddable Web Player Widget'
+title: 'BreezeWatch'
 github: 'https://github.com/tarun05rawat/WEATHER-APP-_-JS'
-external: 'https://tools.applemusic.com/en-us'
+external: 'https://weather-app-js-pink.vercel.app/'
 tech:
-  - MusicKit.js
-  - JS
-  - SCSS
+  - JavaScript
+  - OpenWeatherMap API
+  - Vercel
 company: 'Apple'
 showInProjects: true
 ---
 
-Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging [MusicKit.js](https://developer.apple.com/documentation/musickitjs). Read more about this project on [9to5Mac](https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/).
+The **BreezeWatch** app is a simple **weather application** that allows users to search for real-time weather conditions by city name. Built using **HTML**, **CSS**, **JavaScript**, and the **OpenWeatherMap API**, it displays key weather information such as city name, temperature, humidity, wind speed, and appropriate weather icons.
