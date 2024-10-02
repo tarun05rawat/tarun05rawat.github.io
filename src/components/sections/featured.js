@@ -353,7 +353,8 @@ const Featured = () => {
 
       <StyledProjectsGrid>
         {featuredProjects &&
-          featuredProjects.map(({ node }, i) => {
+          featuredProjects.slice(0, 2).map(({ node }, i) => {
+            // Limited to first 2 projects
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);
