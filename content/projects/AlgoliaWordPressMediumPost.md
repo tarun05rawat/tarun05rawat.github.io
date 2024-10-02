@@ -1,11 +1,11 @@
 ---
 date: '2020-03-27'
-title: 'Integrating Algolia Search with WordPress Multisite'
-github: ''
-external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+title: 'Rate My Professor Chatbot'
+github: 'https://github.com/tarun05rawat/AI-Rate-My-Professor'
+# external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
 tech:
-  - Algolia
-  - WordPress
+  - Next.js
+  - Retrieval-Augmented Generation (RAG)
   - PHP
 company: 'Upstatement'
 showInProjects: true
