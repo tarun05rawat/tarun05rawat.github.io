@@ -1,7 +1,7 @@
 ---
 date: '2017-12-01'
 title: 'Apple Music Embeddable Web Player Widget'
-github: ''
+github: 'https://github.com/tarun05rawat/WEATHER-APP-_-JS'
 external: 'https://tools.applemusic.com/en-us'
 tech:
   - MusicKit.js

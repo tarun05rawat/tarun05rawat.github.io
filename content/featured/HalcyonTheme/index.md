@@ -1,11 +1,12 @@
 ---
 date: '1'
-title: 'RepRight'
+title: 'RepRight (Currently working on)'
 cover: './rep-right.png'
 github: 'https://github.com/MSU-AI/form-check'
 external: 'https://www.msuaiclub.com/'
 tech:
   - React Native (Expo)
+  - Swift (Currently Learning)
   - Firebase
   - Google ML Kit
   - PyTorch

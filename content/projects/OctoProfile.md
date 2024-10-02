@@ -1,13 +1,12 @@
 ---
 date: '2019-07-15'
-title: 'OctoProfile'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+title: 'Image Search Engine'
+github: 'https://github.com/tarun05rawat/Image-Search-Engine'
+external: 'https://image-search-engine-five.vercel.app/'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - JavaScript
+  - Unsplash API
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.
+The Image Search Engine is a web app that allows users to search for images using the Unsplash API. Users can input search terms to view image results, which can be opened in a new tab. The app includes a "Show More" button to load additional images. Built with HTML, CSS, and JavaScript, it provides a simple yet effective interface for image searches.

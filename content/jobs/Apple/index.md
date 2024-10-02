@@ -1,6 +1,6 @@
 ---
 date: '2017-12-21'
-title: 'Beats By Dre Extern'
+title: 'Extern'
 company: 'Beats by Dre + Extern'
 location: 'Remote'
 range: 'July - August 2024'

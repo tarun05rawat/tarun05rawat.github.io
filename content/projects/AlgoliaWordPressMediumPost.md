@@ -2,13 +2,15 @@
 date: '2020-03-27'
 title: 'Rate My Professor Chatbot'
 github: 'https://github.com/tarun05rawat/AI-Rate-My-Professor'
-# external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+external: 'https://ai-rag-rate-my-professor-two.vercel.app/'
 tech:
   - Next.js
-  - Retrieval-Augmented Generation (RAG)
-  - PHP
-company: 'Upstatement'
+  - RAG
+  - Pinecone
+  - Gemini
+  - Vercel
+# company: 'Upstatement'
 showInProjects: true
 ---
 
-Building a custom multisite compatible WordPress plugin to build global search with Algolia
+An AI-driven chatbot that answers questions about professors using a custom dataset and a Pinecone vector database. Using **Retreieval Augmented Generation (RAG)** techniques, **Pinecone**, **JSON**, and **OpenAI**, the chatbot provides detailed responses and insights. Currently working on integrating with the **Rate My Professor API** for real-time data.
