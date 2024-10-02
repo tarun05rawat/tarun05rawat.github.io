@@ -1,7 +1,7 @@
 ---
 date: '2017-04-01'
 title: 'Calculus I Teaching Assistant'
-company: 'Michigan State University'
+company: 'Math @ MSU'
 location: 'Michigan State University'
 range: 'Fall 2024'
 url: 'https://math.msu.edu/'
