@@ -4,7 +4,7 @@ title: 'Halcyon Theme'
 github: 'https://github.com/bchiang7/halcyon-site'
 external: 'https://halcyon-theme.netlify.com/'
 tech:
-  - VS Code
+  - V
   - Sublime Text
   - Atom
   - iTerm2
