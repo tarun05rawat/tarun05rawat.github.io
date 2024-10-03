@@ -11,7 +11,7 @@ module.exports = {
       url: 'https://www.linkedin.com/in/tarun05rawat/',
     },
     {
-      name: 'Devpost',
+      name: 'Codepen',
       url:
         'https://devpost.com/tarun05rawat?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav',
     },
