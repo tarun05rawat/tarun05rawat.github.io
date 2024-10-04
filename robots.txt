@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://tarun-rawat.com/sitemap.xml
+Host: https://tarun-rawat.com
