@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.4
         with:
             # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
-            node-version: 18.x
+            node-version: '18.x'
             
       - run: npm ci
       
@@ -30,5 +30,5 @@ jobs:
           # This is the branch you wish to deploy to, for example gh-pages or docs.
           branch: master
           # The folder in your repository that you want to deploy. If your build script compiles into a directory named build you would put it here. Folder paths cannot have a leading / or ./. If you wish to deploy the root directory you can place a . here.
-          folder: .
+          folder: public
           
