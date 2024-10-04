@@ -2,7 +2,7 @@
 date: '2019-11-12'
 title: 'NCAA 2024 Outcome Predictor'
 github: 'https://github.com/tarun05rawat/NCAA-Basketball-Outcome-Predictor'
-# external: 'https://medium.com/stories-from-upstatement/building-a-headless-mobile-app-cms-from-scratch-bab2d17744d9'
+external: 'https://github.com/tarun05rawat/NCAA-Basketball-Outcome-Predictor'
 tech:
   - Python (Jupyter)
   - Random Forest

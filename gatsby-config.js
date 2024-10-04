@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Tarun Rawat is a software engineer specializing in building impactful and innovative digital solutions.',
     siteUrl: 'https://tarun-rawat.com', // Replace with your actual site URL
-    image: '/tarun.jpg', // Ensure this image is in the 'static' folder
+    image: '/image.jpg', // Ensure this image is in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,10 +22,10 @@ module.exports = {
         name: 'Tarun Rawat',
         short_name: 'Tarun',
         start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
+        background_color: config.colors.red,
+        theme_color: config.colors.red,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png', // Update if you have a different logo path
+        icon: 'src/images/logo.png',
       },
     },
     `gatsby-plugin-offline`,
