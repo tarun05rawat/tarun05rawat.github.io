@@ -151,11 +151,11 @@ const About = () => {
             </p>
 
             <p>
-              I’m currently developing innovative solutions by merging blockchain and AI. I've been
-              working with talented individuals to build apps like RepRight, a fitness app using
-              Computer Vision for real-time feedback, and GreenVolt, which incentivizes battery
-              recycling through smart contracts, reflecting my drive to create impactful,
-              tech-driven solutions.
+              I’m currently developing AI-driven solutions in areas like fitness and sustainability
+              with talented indivduals. Together, we’re building RepRight, a fitness app using
+              Computer Vision for real-time exercise feedback, and EcoReward, a mobile app that
+              rewards users for recycling. These projects reflect our passion for creating
+              impactful, tech-driven solutions.
             </p>
 
             <p>
