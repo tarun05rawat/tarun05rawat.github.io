@@ -33,7 +33,7 @@ const StyledHeader = styled.header`
 
   @media (prefers-reduced-motion: no-preference) {
     ${props =>
-    props.scrollDirection === 'up' &&
+      props.scrollDirection === 'up' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -43,7 +43,7 @@ const StyledHeader = styled.header`
       `};
 
     ${props =>
-    props.scrollDirection === 'down' &&
+      props.scrollDirection === 'down' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -208,7 +208,7 @@ const Nav = ({ isHome }) => {
   const ResumeLink = (
     <a
       className="resume-button"
-      href="https://drive.google.com/file/d/1Izxsx7Q6ZZY3KKRokDrRAsI0EQe8OToc/view?usp=sharing"
+      href="https://drive.google.com/file/d/13E99xE6Ru_O2mW8VDtrbVzmbeJ4Ufv08/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer">
       Resume
