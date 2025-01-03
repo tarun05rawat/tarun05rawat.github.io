@@ -7,6 +7,5 @@ range: 'May - July 2024'
 url: 'https://www.sas.com/en_us/home.html'
 ---
 
-- Developed a customer churn prediction system using **XGBoost** and **RandomForest**, analyzing customer behavior to accurately predict which users were likely to leave the service.
-- Enhanced model accuracy through feature engineering and fine-tuning **Llama 3**, leveraging customer data and interactions to gain deeper insights.
-- Achieved 94% accuracy, enabling more effective **identification of at-risk customers** and allowing for targeted retention strategies that improved engagement and reduced churn.
+- Developed a customer churn prediction model using XGBoost, achieving 94% accuracy to identify at-risk customers and support targeted retention strategies
+- Built a FastAPI endpoint with asynchronous capabilities to deliver churn predictions from the model, achieving 99% uptime and integrating outputs with an internal dashboard

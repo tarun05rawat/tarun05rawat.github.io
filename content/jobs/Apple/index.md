@@ -7,6 +7,5 @@ range: 'July - August 2024'
 url: 'https://www.extern.com/externships/beats-by-dr-dre-branding-strategy-business-analytics-remote-externship'
 ---
 
-- Analyzed customer sentiment for the **Beats Pill Speaker** and 5 competitor products using **Exploratory Data Analysis** techniques
-- Integrated **Gemini AI** and **Natural Language Processing** to generate insights on customer feedback using **10,000 Amazon reviews**
-- Presented a detailed **insights report** to Beats, directly influencing enhancements in the product’s **marketing strategy**
+- Developed automated data processing and web scraping scripts using Python, Gemini AI, and TextBlob to extract sentiment from 10,000+ Amazon reviews for the Beats Pill Speaker
+- Presented data-driven insights to product and marketing teams, leading to a 15% increase in customer satisfaction and 10% boost in engagement through targeted improvements to the product

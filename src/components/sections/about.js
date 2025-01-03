@@ -126,12 +126,12 @@ const About = () => {
   }, []);
 
   const skills = [
+    'JavaScript/TypeScript',
+    'React/Next.js',
     'Python',
-    'JavaScript (ES6+)',
-    'React/React Native',
-    'Next.js',
+    'React Native',
     'Firebase',
-    'Node.js',
+    'Go',
   ];
 
   return (
@@ -144,24 +144,15 @@ const About = () => {
             <p>
               Hello! I’m Tarun, a passionate problem-solver focused on integrating AI with
               full-stack development. My journey began with coding games in Python, which helped me
-              dive deep into the logic side of tech. This eventually led me to roles like Machine
-              Learning Intern at SAS, where I built a 94% accurate customer churn prediction system,
-              and an externship at Beats by Dre, analyzing customer sentiment to improve marketing
-              strategies.
+              dive deep into the logic behind technology. Hours of iteration eventually led me to
+              roles like Machine Learning Intern at SAS, where I built a 94% accurate customer churn
+              prediction system, and an externship at Beats by Dre, analyzing customer sentiment to
+              improve marketing strategies.
             </p>
 
             <p>
-              I’m currently developing AI-driven solutions in areas like fitness and sustainability
-              with talented indivduals. Together, we’re building RepRight, a fitness app using
-              Computer Vision for real-time exercise feedback, and EcoReward, a mobile app that
-              rewards users for recycling. These projects reflect our passion for creating
-              impactful, tech-driven solutions.
-            </p>
-
-            <p>
-              Beyond coding, I lead outreach as VP of Google Developer Groups at MSU, growing
-              membership by 40%, and organize hackathons as VP of Membership at the Engineering
-              Student Council, engaging the university's engineering community.
+              Beyond coding, I lead outreach as VP of Google Developer Groups at MSU, Logistics at
+              Spartahack X, and Outreach at MSU's Engineering Student Council.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

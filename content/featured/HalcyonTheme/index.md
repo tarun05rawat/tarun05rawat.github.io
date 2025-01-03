@@ -1,15 +1,15 @@
 ---
 date: '1'
-title: 'RepRight (Currently working on)'
+title: 'RepRight (Co-founder)'
 cover: './rep-right.png'
 github: 'https://github.com/MSU-AI/form-check'
 external: 'https://www.msuaiclub.com/'
 tech:
-  - React Native (Expo)
-  - Swift (Currently Learning)
+  - React Native
+  - FastAPI
+  - Google Cloud Run
   - Firebase
   - Google ML Kit
-  - PyTorch
 ---
 
-An **AI-driven fitness app** that provides real-time feedback on exercise form by analyzing **user-uploaded videos**. Using **Computer Vision**, it aims to offer accessible, on-demand form correction to reduce reliance on personal trainers. Built with **React Native** and **Firebase**, the app includes **user authentication**, **video capture**, and **ML integration**. Currently part of my university's **AI Club Advanced Projects**
+My team and I developed a **fitness form correction app** using **React Native** and **Google ML Kit**, combining computer vision with a responsive UI for real-time exercise feedback. The app features authentication, stack navigation, and a scalable backend deployed on **Google Cloud Run** with secure **Firebase** storage. Recognized for innovation, it won **Best Overall**, **Most Creative**, and **Most Entrepreneurial App** awards at **AI Club’s end-of-year advanced project showcase**, earning **$700** in funding.

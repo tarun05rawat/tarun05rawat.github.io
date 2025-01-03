@@ -322,7 +322,6 @@ const Featured = () => {
               tech
               github
               external
-              cta
             }
             html
           }
@@ -353,8 +352,8 @@ const Featured = () => {
 
       <StyledProjectsGrid>
         {featuredProjects &&
-          featuredProjects.slice(0, 2).map(({ node }, i) => {
-            // Limited to first 2 projects
+          featuredProjects.slice(0, 3).map(({ node }, i) => {
+            // Limited to first 3 projects
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);

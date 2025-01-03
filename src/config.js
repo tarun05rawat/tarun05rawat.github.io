@@ -10,11 +10,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/tarun05rawat/',
     },
-    {
-      name: 'Codepen',
-      url:
-        'https://devpost.com/tarun05rawat?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav',
-    },
   ],
 
   navLinks: [
