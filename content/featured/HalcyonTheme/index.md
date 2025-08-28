@@ -1,15 +1,14 @@
 ---
 date: '1'
-title: 'RepRight (Co-founder)'
-cover: './rep-right.png'
-github: 'https://github.com/MSU-AI/form-check'
-external: 'https://www.msuaiclub.com/'
+title: 'SnippetShare VSCode Extension - GrizzHacks 2025 Winner'
+cover: './snippetshare_logo.png'
+github: 'https://github.com/tarun05rawat/snippetshare'
+external: 'https://marketplace.visualstudio.com/items?itemName=snippet-share.snippetshare'
 tech:
-  - React Native
-  - FastAPI
-  - Google Cloud Run
-  - Firebase
-  - Google ML Kit
+  - TypeScript
+  - Flask
+  - VSCode API
+  - HTML/CSS
 ---
 
-My team and I developed a **fitness form correction app** using **React Native** and **Google ML Kit**, combining computer vision with a responsive UI for real-time exercise feedback. The app features authentication, stack navigation, and a scalable backend deployed on **Google Cloud Run** with secure **Firebase** storage. Recognized for innovation, it won **Best Overall**, **Most Creative**, and **Most Entrepreneurial App** awards at **AI Club’s end-of-year advanced project showcase**, earning **$700** in funding.
+**SnippetShare VS Code Extension** is a **TypeScript-based** code snippet management solution that enables secure team collaboration through customizable workspaces. Built with a **Flask backend**, **Firebase Authentication**, and **Firestore database**, the extension implements **real-time synchronization** via REST APIs to support up to **25 developers per workspace** while reducing snippet retrieval time by **50%**. The integrated VS Code interface utilizes the **Webview API**, custom **CSS/JavaScript**, and **keyboard shortcuts** (CMD+option+S) to streamline snippet access and boost integration efficiency by **40%**. Successfully deployed on the **VS Code Marketplace**, this **full-stack solution** demonstrates expertise in TypeScript development, API design, and VS Code extension architecture.
