@@ -1,11 +1,15 @@
 ---
 date: '2017-04-01'
-title: 'Machine Learning Intern'
-company: 'SAS'
-location: 'Dubai, UAE'
-range: 'May - July 2024'
-url: 'https://www.sas.com/en_us/home.html'
+title: 'Software Engineering Intern'
+company: 'Attire'
+location: 'Detroit, MI'
+range: 'May - August 2025'
+url: 'https://www.attireappco.com'
 ---
 
-- Developed a customer churn prediction model using XGBoost, achieving 94% accuracy to identify at-risk customers and support targeted retention strategies
-- Built a FastAPI endpoint with asynchronous capabilities to deliver churn predictions from the model, achieving 99% uptime and integrating outputs with an internal dashboard
+- Develop and enhance the “Style Match” feature in Attire’s Flutter-based mobile app, delivering AI-powered outfit
+  recommendations to a live user base across iOS and Android platforms
+- Optimize widget rendering and state management using object-oriented design principles, leading to a 25% improvement
+  in screen load times and enhanced responsiveness
+- Integrate Firebase Authentication and Cloud Firestore with RESTful APIs to support real-time content updates,
+  contributing to a 15% increase in daily user engagement
