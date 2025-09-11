@@ -259,6 +259,9 @@ const StyledProject = styled.li`
       background-color: var(--green);
       border-radius: var(--border-radius);
       vertical-align: middle;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover,
       &:focus {
@@ -292,13 +295,32 @@ const StyledProject = styled.li`
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1) brightness(90%);
+      object-fit: contain;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
 
       @media (max-width: 768px) {
-        object-fit: cover;
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 100%;
         width: auto;
-        height: 100%;
+        height: auto;
         filter: grayscale(100%) contrast(1) brightness(50%);
       }
+    }
+  }
+
+  /* Target the first project specifically - must come after general .img styles */
+  &:first-of-type {
+    .project-image .img {
+      object-position: 10% 90% 10% 90% !important;
+      object-fit: cover !important;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: none !important;
+      max-height: none !important;
     }
   }
 `;
@@ -316,7 +338,12 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+                  gatsbyImageData(
+                    width: 700
+                    height: 438
+                    placeholder: BLURRED
+                    formats: [AUTO, WEBP, AVIF]
+                  )
                 }
               }
               tech

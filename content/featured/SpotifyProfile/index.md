@@ -1,14 +1,15 @@
 ---
 date: '2'
-title: 'InterviewIQ'
-cover: './interview-iq-landing-page.png'
-github: 'https://github.com/tarun05rawat/InterviewIQ'
-external: 'https://interview-iq-six.vercel.app'
+title: 'HopeHub'
+cover: './hopehub-cover-image.jpg'
+github: 'https://github.com/tarun05rawat/hackdavis-25'
+external: 'https://devpost.com/software/hopehub-objmgt'
 tech:
   - React/Next.js
-  - TailwindCSS
-  - Node
-  - OpenAI's Whisper
+  - Flask
+  - Firebase
+  - Gemini API
+  - Docker
 ---
 
-I created InterviewIQ, an **AI-powered interview simulator** using **React/Next.js** and **Node.js**, designed to enhance interview preparation. The platform integrates **OpenAI's Whisper API** for **real-time transcription** and **GPT-4** for **personalized feedback on user responses**. Styled with **TailwindCSS**, the responsive frontend contributed to a **78% session completion rate**, demonstrating high user engagement and effectiveness.
+Built in under **24 hours**, HopeHub is a **full-stack CRM platform** that streamlines **nonprofit case management** and grant reporting. The app leverages **React/Next.js** with **Tailwind CSS** for a responsive UI, **Flask APIs** with **Firebase Firestore** for real-time data storage, and the **Gemini API** for AI-driven report generation—replacing manual workflows with **automated, cloud-based insights.**

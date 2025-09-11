@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'SnippetShare VSCode Extension - GrizzHacks 2025 Winner'
-cover: './snippetshare_logo.png'
+cover: './snippetshare_logo.jpg'
 github: 'https://github.com/tarun05rawat/snippetshare'
 external: 'https://marketplace.visualstudio.com/items?itemName=snippet-share.snippetshare'
 tech:
