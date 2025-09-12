@@ -1,7 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/tarun05rawat.github.io',
+  // pathPrefix: '/tarun05rawat.github.io', // Disabled for Netlify deployment
   siteMetadata: {
     title: 'Tarun Rawat',
     description:
