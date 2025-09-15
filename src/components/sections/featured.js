@@ -309,6 +309,17 @@ const StyledProject = styled.li`
         height: auto;
         filter: grayscale(100%) contrast(1) brightness(50%);
       }
+
+      &.placeholder {
+        background-color: var(--light-navy);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--lightest-slate);
+        font-size: var(--fz-sm);
+        height: 200px;
+        width: 100%;
+      }
     }
   }
 
@@ -357,6 +368,7 @@ const Featured = () => {
                     formats: [AUTO, WEBP, AVIF]
                   )
                 }
+                publicURL
               }
               tech
               github
@@ -442,7 +454,13 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
+                    {image ? (
+                      <GatsbyImage image={image} alt={title} className="img" />
+                    ) : cover?.publicURL ? (
+                      <img src={cover.publicURL} alt={title} className="img" />
+                    ) : (
+                      <div className="img placeholder">No Image Available</div>
+                    )}
                   </a>
                 </div>
               </StyledProject>
