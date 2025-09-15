@@ -66,14 +66,7 @@ const Hero = () => {
       move fast (responsibly) <br /> break things (figuratively)
     </h3>
   );
-  const four = (
-    <>
-      <p>
-        Focused on delivering accessible, efficient, and AI-driven solutions for real-world
-        challenges
-      </p>
-    </>
-  );
+  const four = <></>;
   // const five = (
   //   <a
   //     className="email-link"

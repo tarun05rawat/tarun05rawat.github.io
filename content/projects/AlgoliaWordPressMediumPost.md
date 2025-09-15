@@ -1,16 +1,15 @@
 ---
-date: '2020-03-27'
-title: 'Rate My Professor Chatbot'
-github: 'https://github.com/tarun05rawat/AI-Rate-My-Professor'
-external: 'https://ai-rag-rate-my-professor-two.vercel.app/'
+date: '3'
+title: 'MeetEase - Meeting Scheduler'
+cover: './meet-ease.png'
+external: 'https://meet-ease-livid.vercel.app'
+github: 'https://github.com/tarun05rawat/MeetEase'
 tech:
-  - Next.js
-  - RAG
-  - Pinecone
-  - Gemini
-  - Vercel
-# company: 'Upstatement'
-showInProjects: true
+  - React/Next.js
+  - Node.js
+  - Firebase
+  - TailwindCSS
+  - Plunk
 ---
 
-An AI-driven chatbot that answers questions about professors using a custom dataset and a Pinecone vector database. Using **Retreieval Augmented Generation (RAG)** techniques, **Pinecone**, **JSON**, and **OpenAI**, the chatbot provides detailed responses and insights. Currently working on integrating with the **Rate My Professor API** for real-time data.
+I created MeetEase, a seamless meeting scheduling platform that simplifies organizing meetings with customizable time slots, real-time availability, and Firebase Firestore for secure data storage. The platform integrates Plunk API for personalized confirmation emails and features a responsive, user-friendly interface styled with Tailwind CSS. Powered by Next.js and hosted on Vercel, MeetEase offers dynamic time management and customization for businesses, ensuring a streamlined scheduling experience.

@@ -323,6 +323,18 @@ const StyledProject = styled.li`
       max-height: none !important;
     }
   }
+
+  /* Target the third project specifically (MeetPilot) */
+  &:nth-of-type(3) {
+    .project-image .img {
+      object-position: 30% center !important;
+      object-fit: cover !important;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: none !important;
+      max-height: none !important;
+    }
+  }
 `;
 
 const Featured = () => {

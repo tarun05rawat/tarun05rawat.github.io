@@ -1,15 +1,16 @@
 ---
-date: '3'
-title: 'MeetEase - Meeting Scheduler'
-cover: './meet-ease.png'
-external: 'https://meet-ease-livid.vercel.app'
-github: 'https://github.com/tarun05rawat/MeetEase'
+date: '2020-03-27'
+title: 'MeetPilot - Agentic Meet Assistant'
+cover: './meetpilot_logo.png'
+github: 'https://github.com/tarun05rawat/meet-pilot'
 tech:
-  - React/Next.js
-  - Node.js
-  - Firebase
-  - TailwindCSS
-  - Plunk
+  - Next.js
+  - RAG
+  - Pinecone
+  - Gemini
+  - Vercel
+# company: 'Upstatement'
+showInProjects: true
 ---
 
-I created MeetEase, a seamless meeting scheduling platform that simplifies organizing meetings with customizable time slots, real-time availability, and Firebase Firestore for secure data storage. The platform integrates Plunk API for personalized confirmation emails and features a responsive, user-friendly interface styled with Tailwind CSS. Powered by Next.js and hosted on Vercel, MeetEase offers dynamic time management and customization for businesses, ensuring a streamlined scheduling experience.
+A real-time meeting assistant desktop app built with **React, Electron, and Node.js**, powered by **FastAPI, Firebase, and GPT-4 (agentic)**. It captures background audio and provides **live transcription using Deepgram**, while an **agentic GPT-4 workflow** auto-generates **summaries, action items, sentiment analysis**, and decision tracking to enhance meeting productivity and clarity.

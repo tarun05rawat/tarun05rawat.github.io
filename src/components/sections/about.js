@@ -125,14 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'JavaScript/TypeScript',
-    'React/Next.js',
-    'Python',
-    'React Native',
-    'Firebase',
-    'Go',
-  ];
+  const skills = ['JavaScript/TypeScript', 'React/Next.js', 'Python', 'Golang', 'Docker', 'AWS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -142,17 +135,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I’m Tarun, a passionate problem-solver focused on integrating AI with
-              full-stack development. My journey began with coding games in Python, which helped me
-              dive deep into the logic behind technology. Hours of iteration eventually led me to
-              roles like Machine Learning Intern at SAS, where I built a 94% accurate customer churn
-              prediction system, and an externship at Beats by Dre, analyzing customer sentiment to
-              improve marketing strategies.
+              Hello! I’m Tarun, a Computer Science major at Michigan State University and a
+              full-stack engineer passionate about{' '}
+              <strong>AI-powered full-stack development</strong>. I’ve built a 94% accurate churn
+              prediction model at <strong>SAS</strong>, optimized Flutter features at{' '}
+              <strong>Attire</strong>, and earned multiple hackathon wins—like
+              <strong> SnippetShare</strong> (VS Code extension) and <strong>HopeHub</strong> (AI
+              CRM). I’m currently creating <strong>MeetPilot</strong>, a real-time GPT-4 meeting
+              assistant.
             </p>
 
             <p>
-              Beyond coding, I lead outreach as VP of Google Developer Groups at MSU, Logistics at
-              Spartahack X, and Outreach at MSU's Engineering Student Council.
+              Beyond coding, I serve as an <strong>Anthropic Technical Campus Ambassador</strong>{' '}
+              and founded MSU’s <strong>Claude Builder Club</strong>, leading workshops to advance
+              AI literacy. I also helped organize <strong>SpartaHack X</strong> and support students
+              as a<strong> Resident Assistant</strong>, combining technical excellence with
+              leadership and community building.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
