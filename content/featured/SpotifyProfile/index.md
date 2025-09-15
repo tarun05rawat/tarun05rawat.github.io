@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'HopeHub'
+title: 'HopeHub - HackDavis 2025 Winner'
 cover: './hopehub-cover-image.jpg'
 github: 'https://github.com/tarun05rawat/hackdavis-25'
 external: 'https://devpost.com/software/hopehub-objmgt'
