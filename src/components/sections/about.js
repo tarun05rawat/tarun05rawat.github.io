@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript/TypeScript', 'React/Next.js', 'Python', 'Golang', 'Docker', 'AWS'];
+  const skills = ['Python', 'Go', 'Java', 'JavaScript/TypeScript', 'Dart', 'React/Next.js', 'Flutter', 'Flask', 'Docker', 'AWS', 'Firebase', 'PostgreSQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,25 +135,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I’m Tarun, a Computer Science major at Michigan State University and a
-              full-stack engineer passionate about{' '}
-              <strong>AI-powered full-stack development</strong>. I’ve built a 94% accurate churn
-              prediction model at <strong>SAS</strong>, optimized Flutter features at{' '}
-              <strong>Attire</strong>, and earned multiple hackathon wins—like
-              <strong> SnippetShare</strong> (VS Code extension) and <strong>HopeHub</strong> (AI
-              CRM). I’m currently creating <strong>MeetPilot</strong>, a real-time GPT-4 meeting
-              assistant.
+              Hello! I'm Tarun, a Computer Science major (GPA: 3.9) at{' '}
+              <strong>Michigan State University's Honors College</strong>, passionate about building
+              scalable, AI-powered systems. I interned at <strong>SAS</strong>, where I shipped a
+              distributed backend powering retention workflows for 500K+ users, and at{' '}
+              <strong>Attire</strong>, where I improved Flutter mobile performance and drove a 15%
+              lift in daily user engagement.
             </p>
 
             <p>
-              Beyond coding, I serve as an <strong>Anthropic Technical Campus Ambassador</strong>{' '}
-              and founded MSU’s <strong>Claude Builder Club</strong>, leading workshops to advance
-              AI literacy. I also helped organize <strong>SpartaHack X</strong> and support students
-              as a<strong> Resident Assistant</strong>, combining technical excellence with
-              leadership and community building.
+              I've built projects ranging from <strong>FleetStream</strong> (a real-time Go/Kafka
+              telemetry pipeline handling 10K+ concurrent events) to hackathon winners like{' '}
+              <strong>HopeHub</strong> (AI CRM adopted by a Sacramento nonprofit) and{' '}
+              <strong>SnippetShare</strong> (a VS Code extension for team code collaboration). I'm
+              also an <strong>Anthropic Technical Campus Ambassador</strong> and founded MSU's{' '}
+              <strong>Claude Builder Club</strong>, leading workshops and a grassroots hackathon for
+              100+ students.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
