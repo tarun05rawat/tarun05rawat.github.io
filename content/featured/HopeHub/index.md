@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'HopeHub - HackDavis 2025 Winner'
 cover: './hopehub-cover-image.jpg'
 github: 'https://github.com/tarun05rawat/hackdavis-25'

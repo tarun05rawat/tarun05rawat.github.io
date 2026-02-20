@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'FleetStream – Real-Time Vehicle Telemetry & Manufacturing Data Pipeline'
 github: 'https://github.com/tarun05rawat/fleetstream'
 tech:

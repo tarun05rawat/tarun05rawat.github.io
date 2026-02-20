@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'SnippetShare VSCode Extension - GrizzHacks 2025 Winner'
 cover: './snippetshare_logo.jpg'
 github: 'https://github.com/tarun05rawat/snippetshare'
