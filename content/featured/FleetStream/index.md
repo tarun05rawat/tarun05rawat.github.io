@@ -2,7 +2,7 @@
 date: '2'
 title: 'FleetStream – Real-Time Telemetry Pipeline'
 cover: './fleetstream-cover.png'
-github: 'https://github.com/tarun05rawat/fleetsteam'
+github: 'https://github.com/tarun05rawat/fleetstream'
 tech:
   - Go
   - Kafka
