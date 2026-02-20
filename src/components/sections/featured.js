@@ -128,6 +128,7 @@ const StyledProject = styled.li`
     font-size: clamp(24px, 5vw, 28px);
     max-width: 480px;
     line-height: 1.2;
+    display: inline-block;
 
     @media (min-width: 768px) {
       margin: 0 0 20px;
