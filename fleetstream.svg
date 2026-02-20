@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#1A1F35" />
+      <stop offset="100%" stop-color="#080B12" />
+    </linearGradient>
+    <linearGradient id="stream1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="stream2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <g filter="url(#glow)">
+    <path d="M-100,200 Q400,300 1300,100" fill="none" stroke="url(#stream1)" stroke-width="8" />
+    <path d="M-100,250 Q500,400 1300,200" fill="none" stroke="url(#stream1)" stroke-width="4" opacity="0.6"/>
+    <path d="M-100,450 Q600,200 1300,500" fill="none" stroke="url(#stream2)" stroke-width="6" />
+    <path d="M-100,500 Q700,300 1300,550" fill="none" stroke="url(#stream2)" stroke-width="3" opacity="0.5"/>
+  </g>
+
+  <circle cx="250" cy="225" r="4" fill="#3B82F6" filter="url(#glow)"/>
+  <circle cx="850" cy="140" r="6" fill="#8B5CF6" filter="url(#glow)"/>
+  <circle cx="450" cy="310" r="5" fill="#10B981" filter="url(#glow)"/>
+  <circle cx="950" cy="400" r="7" fill="#3B82F6" filter="url(#glow)"/>
+
+  <text x="600" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="82" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">Fleetstream</text>
+  
+  <text x="600" y="380" font-family="monospace" font-size="24" font-weight="400" fill="#9CA3AF" text-anchor="middle" letter-spacing="1">tarun05rawat / fleetstream</text>
+</svg>
